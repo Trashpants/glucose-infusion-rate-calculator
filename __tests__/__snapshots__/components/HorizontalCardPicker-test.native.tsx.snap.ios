@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+  style={Object {}}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "width": 6,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "borderRadius": 12,
+            "height": 72,
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+            "marginVertical": 6,
+            "width": 72,
+          },
+          false,
+        ]
+      }
+      testID="button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 32,
+              "fontWeight": "300",
+            },
+            false,
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "600",
+            },
+            false,
+          ]
+        }
+      >
+        KG
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "borderRadius": 12,
+            "height": 72,
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+            "marginVertical": 6,
+            "width": 72,
+          },
+          false,
+        ]
+      }
+      testID="button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 32,
+              "fontWeight": "300",
+            },
+            false,
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "600",
+            },
+            false,
+          ]
+        }
+      >
+        KG
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "borderRadius": 12,
+            "height": 72,
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+            "marginVertical": 6,
+            "width": 72,
+          },
+          false,
+        ]
+      }
+      testID="button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 32,
+              "fontWeight": "300",
+            },
+            false,
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "600",
+            },
+            false,
+          ]
+        }
+      >
+        KG
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 6,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
+<Text
+  style={
+    Object {
+      "fontSize": 24,
+      "fontWeight": "600",
+      "padding": 12,
+    }
+  }
+  testID="label"
+>
+  label
+</Text>
+`;

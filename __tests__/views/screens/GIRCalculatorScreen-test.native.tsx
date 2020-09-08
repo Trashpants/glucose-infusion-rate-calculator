@@ -4,7 +4,7 @@ import { GIRCalculatorScreen } from "@screens/index";
 
 afterEach(cleanup);
 
-describe("<Spacer />", () => {
+describe("<GIRCalculator />", () => {
   it("should match snapshot", () => {
     const rendered = render(<GIRCalculatorScreen />).toJSON();
     expect(rendered).toMatchSnapshot();
