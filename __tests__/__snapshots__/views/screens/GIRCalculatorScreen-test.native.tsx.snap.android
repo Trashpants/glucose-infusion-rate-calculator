@@ -8,743 +8,1046 @@ exports[`<GIRCalculator /> should match snapshot 1`] = `
     }
   }
 >
-  <RCTScrollView>
-    <View>
-      <View
-        style={
-          Object {
-            "padding": 12,
-            "width": 750,
-          }
-        }
-        testID="spacer"
-      />
-      <Text
-        style={
-          Object {
-            "color": "rgb(28, 28, 30)",
-            "fontSize": 16,
-            "fontWeight": "600",
-            "paddingBottom": 6,
-            "paddingHorizontal": 12,
-            "paddingTop": 12,
-          }
-        }
-        testID="label"
-      >
-        Childs Weight
-      </Text>
-      <RCTScrollView
-        horizontal={true}
-        showsHorizontalScrollIndicator={false}
-        style={Object {}}
-      >
-        <View>
-          <View
-            style={
-              Object {
-                "width": 6,
-              }
-            }
-          />
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              1
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              2
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              3
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              4
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              5
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              6
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              7
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderRadius": 12,
-                  "height": 72,
-                  "justifyContent": "center",
-                  "marginHorizontal": 6,
-                  "marginVertical": 6,
-                  "width": 72,
-                },
-                false,
-              ]
-            }
-            testID="button"
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 32,
-                    "fontWeight": "300",
-                  },
-                  false,
-                ]
-              }
-            >
-              8
-            </Text>
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "rgb(28, 28, 30)",
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                  },
-                  false,
-                ]
-              }
-            >
-              KG
-            </Text>
-          </View>
-          <View
-            style={
-              Object {
-                "width": 6,
-              }
-            }
-          />
-        </View>
-      </RCTScrollView>
-      <View
-        style={
-          Object {
-            "padding": 12,
-            "width": 750,
-          }
-        }
-        testID="spacer"
-      />
-      <Text
-        style={
-          Object {
-            "color": "rgb(28, 28, 30)",
-            "fontSize": 16,
-            "fontWeight": "600",
-            "paddingBottom": 6,
-            "paddingHorizontal": 12,
-            "paddingTop": 12,
-          }
-        }
-        testID="label"
-      >
-        IV fluids/TPN
-      </Text>
-      <View
-        style={
-          Object {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-            "paddingHorizontal": 12,
-          }
-        }
-      >
-        <TextInput
-          allowFontScaling={true}
-          keyboardType="number-pad"
-          maxLength={3}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          rejectResponderTermination={true}
-          style={
-            Object {
-              "backgroundColor": "#abc",
-              "bottom": 0,
-              "left": 0,
-              "opacity": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "zIndex": 1,
-            }
-          }
-          underlineColorAndroid="transparent"
-          value="00"
-        />
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      keyboardShouldPersistTaps="handled"
+    >
+      <View>
         <View
           style={
-            Array [
-              Object {
-                "borderBottomWidth": 2,
-                "borderColor": "rgb(216, 216, 216)",
-                "paddingRight": 6,
-              },
-              false,
-            ]
-          }
-        >
-          <Text
-            style={
-              Object {
-                "color": "rgb(28, 28, 30)",
-                "fontSize": 72,
-                "fontWeight": "100",
-                "textAlign": "right",
-              }
+            Object {
+              "padding": 12,
+              "width": 750,
             }
-          >
-            00
-          </Text>
-        </View>
+          }
+          testID="spacer"
+        />
         <Text
           style={
             Object {
               "color": "rgb(28, 28, 30)",
-              "fontSize": 24,
+              "fontSize": 16,
               "fontWeight": "600",
-              "paddingBottom": 18,
-              "paddingLeft": 6,
+              "paddingBottom": 6,
+              "paddingHorizontal": 12,
+              "paddingTop": 12,
             }
           }
+          testID="label"
         >
-          Dextrose %
+          Childs Weight
         </Text>
-      </View>
-      <View
-        style={
-          Object {
-            "padding": 12,
-            "width": 750,
-          }
-        }
-        testID="spacer"
-      />
-      <View
-        style={
-          Object {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-            "paddingHorizontal": 12,
-          }
-        }
-      >
-        <TextInput
-          allowFontScaling={true}
-          keyboardType="number-pad"
-          maxLength={3}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          rejectResponderTermination={true}
-          style={
-            Object {
-              "backgroundColor": "#abc",
-              "bottom": 0,
-              "left": 0,
-              "opacity": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "zIndex": 1,
-            }
-          }
-          underlineColorAndroid="transparent"
-          value="00"
-        />
+        <RCTScrollView
+          horizontal={true}
+          showsHorizontalScrollIndicator={false}
+          style={Object {}}
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "width": 6,
+                }
+              }
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                1
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                2
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                3
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                4
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                5
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                6
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                7
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderRadius": 12,
+                    "height": 72,
+                    "justifyContent": "center",
+                    "marginHorizontal": 6,
+                    "marginVertical": 6,
+                    "width": 72,
+                  },
+                  false,
+                ]
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "fontWeight": "300",
+                    },
+                    false,
+                  ]
+                }
+              >
+                8
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    false,
+                  ]
+                }
+              >
+                KG
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 6,
+                }
+              }
+            />
+          </View>
+        </RCTScrollView>
         <View
           style={
-            Array [
-              Object {
-                "borderBottomWidth": 2,
-                "borderColor": "rgb(216, 216, 216)",
-                "paddingRight": 6,
-              },
-              false,
-            ]
-          }
-        >
-          <Text
-            style={
-              Object {
-                "color": "rgb(28, 28, 30)",
-                "fontSize": 72,
-                "fontWeight": "100",
-                "textAlign": "right",
-              }
+            Object {
+              "padding": 12,
+              "width": 750,
             }
-          >
-            00
-          </Text>
-        </View>
+          }
+          testID="spacer"
+        />
         <Text
           style={
             Object {
               "color": "rgb(28, 28, 30)",
-              "fontSize": 24,
+              "fontSize": 16,
               "fontWeight": "600",
-              "paddingBottom": 18,
-              "paddingLeft": 6,
+              "paddingBottom": 6,
+              "paddingHorizontal": 12,
+              "paddingTop": 12,
             }
           }
+          testID="label"
         >
-          ml/hr
+          IV fluids/TPN
         </Text>
-      </View>
-      <View
-        style={
-          Object {
-            "padding": 12,
-            "width": 750,
-          }
-        }
-        testID="spacer"
-      />
-      <Text
-        style={
-          Object {
-            "color": "rgb(28, 28, 30)",
-            "fontSize": 16,
-            "fontWeight": "600",
-            "paddingBottom": 6,
-            "paddingHorizontal": 12,
-            "paddingTop": 12,
-          }
-        }
-        testID="label"
-      >
-        IV fluid GIR
-      </Text>
-      <View
-        style={
-          Object {
-            "alignItems": "baseline",
-            "borderColor": "rgb(28, 28, 30)",
-            "borderTopWidth": 2,
-            "flexDirection": "row",
-            "margin": 12,
-            "marginTop": 6,
-          }
-        }
-      >
-        <Text
-          adjustsFontSizeToFit={true}
-          numberOfLines={1}
+        <View
           style={
             Object {
-              "color": "rgb(28, 28, 30)",
-              "fontSize": 96,
-              "fontWeight": "200",
+              "alignItems": "flex-end",
+              "flexDirection": "row",
               "paddingHorizontal": 12,
             }
           }
         >
-          0
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="number-pad"
+            maxLength={3}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#abc",
+                "bottom": 0,
+                "left": 0,
+                "opacity": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 1,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value="00"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgb(216, 216, 216)",
+                  "paddingRight": 6,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 72,
+                  "fontWeight": "100",
+                  "textAlign": "right",
+                }
+              }
+            >
+              00
+            </Text>
+          </View>
           <Text
             style={
               Object {
-                "borderColor": "rgb(28, 28, 30)",
                 "color": "rgb(28, 28, 30)",
-                "fontSize": 36,
+                "fontSize": 24,
                 "fontWeight": "600",
-                "marginLeft": 6,
-                "paddingBottom": 0,
+                "paddingBottom": 18,
+                "paddingLeft": 6,
               }
             }
           >
-             mg/kg/min
+            Dextrose %
           </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "padding": 12,
+              "width": 750,
+            }
+          }
+          testID="spacer"
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "paddingHorizontal": 12,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="number-pad"
+            maxLength={3}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#abc",
+                "bottom": 0,
+                "left": 0,
+                "opacity": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 1,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value="00"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgb(216, 216, 216)",
+                  "paddingRight": 6,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 72,
+                  "fontWeight": "100",
+                  "textAlign": "right",
+                }
+              }
+            >
+              00
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 24,
+                "fontWeight": "600",
+                "paddingBottom": 18,
+                "paddingLeft": 6,
+              }
+            }
+          >
+            ml/hr
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "padding": 12,
+              "width": 750,
+            }
+          }
+          testID="spacer"
+        />
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "paddingBottom": 6,
+              "paddingHorizontal": 12,
+              "paddingTop": 12,
+            }
+          }
+          testID="label"
+        >
+          IV fluid GIR
         </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "baseline",
+              "borderColor": "rgb(28, 28, 30)",
+              "borderTopWidth": 2,
+              "flexDirection": "row",
+              "margin": 12,
+              "marginTop": 6,
+            }
+          }
+        >
+          <Text
+            adjustsFontSizeToFit={true}
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 96,
+                "fontWeight": "200",
+                "paddingHorizontal": 12,
+              }
+            }
+          >
+            0
+            <Text
+              style={
+                Object {
+                  "borderColor": "rgb(28, 28, 30)",
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 36,
+                  "fontWeight": "600",
+                  "marginLeft": 6,
+                  "paddingBottom": 0,
+                }
+              }
+            >
+               mg/kg/min
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "padding": 12,
+              "width": 750,
+            }
+          }
+          testID="spacer"
+        />
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "paddingBottom": 6,
+              "paddingHorizontal": 12,
+              "paddingTop": 12,
+            }
+          }
+          testID="label"
+        >
+          PolyCal
+        </Text>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "backgroundColor": "#eee",
+                "borderRadius": 5,
+                "flexDirection": "row",
+                "height": 28,
+                "justifyContent": "space-evenly",
+                "overflow": "hidden",
+                "position": "relative",
+              },
+              Object {
+                "margin": 12,
+              },
+              undefined,
+              false,
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 5,
+                "flex": 1,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 5,
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "margin": 2,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "black",
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                    },
+                    Object {
+                      "color": "black",
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                      "fontWeight": "700",
+                    },
+                  ]
+                }
+              >
+                None
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 5,
+                "flex": 1,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 5,
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "margin": 2,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "black",
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                    },
+                    false,
+                  ]
+                }
+              >
+                1/4 tsp
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 5,
+                "flex": 1,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 5,
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "margin": 2,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "black",
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                    },
+                    false,
+                  ]
+                }
+              >
+                1/2 tsp
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 5,
+                "flex": 1,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 5,
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "margin": 2,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "black",
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                    },
+                    false,
+                  ]
+                }
+              >
+                3/4 tsp
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 5,
+                "flex": 1,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 5,
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "margin": 2,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "black",
+                      "fontFamily": undefined,
+                      "fontSize": undefined,
+                    },
+                    false,
+                  ]
+                }
+              >
+                1 tsp
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;
