@@ -49,7 +49,7 @@ export default function GIRCalculatorScreen() {
     <View style={styles.container}>
       <ScrollView>
         <Spacer />
-        <FormLabel>Childs Weight (KG)</FormLabel>
+        <FormLabel>Childs Weight</FormLabel>
         <HorizontalCardPicker
           items={kgWeights}
           measurement="KG"
