@@ -4,9 +4,12 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
 <Text
   style={
     Object {
-      "fontSize": 24,
+      "color": "rgb(28, 28, 30)",
+      "fontSize": 16,
       "fontWeight": "600",
-      "padding": 12,
+      "paddingBottom": 6,
+      "paddingHorizontal": 12,
+      "paddingTop": 12,
     }
   }
   testID="label"

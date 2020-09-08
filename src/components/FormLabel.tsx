@@ -10,9 +10,11 @@ const FormLabel: FunctionComponent<FormLabelProps> = ({ children }) => {
   const theme = useTheme();
   const styles = StyleSheet.create({
     label: {
-      padding: 12,
+      paddingTop: 12,
+      paddingBottom: 6,
+      paddingHorizontal: 12,
       fontWeight: "600",
-      fontSize: 24,
+      fontSize: 16,
       color: theme.colors.text,
     },
   });

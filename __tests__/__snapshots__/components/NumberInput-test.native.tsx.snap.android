@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NumberInput /> should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "flexDirection": "row",
+      "paddingHorizontal": 12,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="number-pad"
+    maxLength={3}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#abc",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 1,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="00"
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomWidth": 2,
+          "borderColor": "rgb(216, 216, 216)",
+          "paddingRight": 6,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 72,
+          "fontWeight": "100",
+          "textAlign": "right",
+        }
+      }
+    >
+      00
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "rgb(28, 28, 30)",
+        "fontSize": 24,
+        "fontWeight": "600",
+        "paddingBottom": 18,
+        "paddingLeft": 6,
+      }
+    }
+  >
+    %
+  </Text>
+</View>
+`;

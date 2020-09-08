@@ -45,6 +45,7 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
         style={
           Array [
             Object {
+              "color": "rgb(28, 28, 30)",
               "fontSize": 32,
               "fontWeight": "300",
             },
@@ -58,6 +59,7 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
         style={
           Array [
             Object {
+              "color": "rgb(28, 28, 30)",
               "fontSize": 14,
               "fontWeight": "600",
             },
@@ -99,6 +101,7 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
         style={
           Array [
             Object {
+              "color": "rgb(28, 28, 30)",
               "fontSize": 32,
               "fontWeight": "300",
             },
@@ -112,6 +115,7 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
         style={
           Array [
             Object {
+              "color": "rgb(28, 28, 30)",
               "fontSize": 14,
               "fontWeight": "600",
             },
@@ -153,6 +157,7 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
         style={
           Array [
             Object {
+              "color": "rgb(28, 28, 30)",
               "fontSize": 32,
               "fontWeight": "300",
             },
@@ -166,6 +171,7 @@ exports[`<HorizontalCardPicker /> should match snapshot 1`] = `
         style={
           Array [
             Object {
+              "color": "rgb(28, 28, 30)",
               "fontSize": 14,
               "fontWeight": "600",
             },

@@ -24,7 +24,7 @@ const HorizontalCardPicker: FunctionComponent<HorizontalCardPickerProps> = ({
    * We can use array.map over a flatlist as performance hit is negligible
    */
 
-  const [selectedValue, setSelectedValue] = useState<number>(0);
+  const [selectedValue, setSelectedValue] = useState<number>(-1);
 
   const theme = useTheme();
   const styles = StyleSheet.create({
