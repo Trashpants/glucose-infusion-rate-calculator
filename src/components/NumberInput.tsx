@@ -55,6 +55,7 @@ const NumberInput: FunctionComponent<NumberInputProps> = ({
     end: {
       fontSize: 24,
       paddingLeft: 6,
+      paddingRight: 96,
       paddingBottom: 18,
       color: theme.colors.text,
       fontWeight: "600",
@@ -81,7 +82,9 @@ const NumberInput: FunctionComponent<NumberInputProps> = ({
       <View style={[styles.inputContainer, isFocused && styles.focused]}>
         <Text style={styles.input}>{value}</Text>
       </View>
-      <Text style={styles.end}>{ending}</Text>
+      <Text style={styles.end} numberOfLines={1} adjustsFontSizeToFit>
+        {ending}
+      </Text>
     </View>
   );
 };

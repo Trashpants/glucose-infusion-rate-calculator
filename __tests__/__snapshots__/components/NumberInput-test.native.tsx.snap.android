@@ -59,6 +59,8 @@ exports[`<NumberInput /> should match snapshot 1`] = `
     </Text>
   </View>
   <Text
+    adjustsFontSizeToFit={true}
+    numberOfLines={1}
     style={
       Object {
         "color": "rgb(28, 28, 30)",
@@ -66,6 +68,7 @@ exports[`<NumberInput /> should match snapshot 1`] = `
         "fontWeight": "600",
         "paddingBottom": 18,
         "paddingLeft": 6,
+        "paddingRight": 96,
       }
     }
   >

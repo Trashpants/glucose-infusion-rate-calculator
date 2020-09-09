@@ -15,9 +15,13 @@ import {
   NumberInput,
 } from "@components/index";
 import { useTheme } from "@react-navigation/native";
-import { calculateIVFluidGIR } from "@utilities/Calculations";
+import {
+  calculateIVFluidGIR,
+  calculateFeedGIR,
+  generateNumberList,
+} from "@utilities/Calculations";
 
-const kgWeights = [1, 2, 3, 4, 5, 6, 7, 8];
+const kgWeights = generateNumberList(1, 20);
 
 export default function GIRCalculatorScreen() {
   const theme = useTheme();
@@ -25,7 +29,14 @@ export default function GIRCalculatorScreen() {
   const [weight, setWeight] = useState<number>(0);
   const [dextrose, setDextrose] = useState<number>(0);
   const [ml, setMl] = useState<number>(0);
+
   const [polyCal, setPolyCal] = useState<number>(0);
+  const [milk, setMilk] = useState<number>(0);
+  const [ssc20, setSsc20] = useState<number>(0);
+  const [ssc40, setSsc40] = useState<number>(0);
+  const [ebmSingle, setEbmSingle] = useState<number>(0);
+  const [ebmDouble, setEbmDouble] = useState<number>(0);
+  const [ebmNeoSure, setEbmNeosure] = useState<number>(0);
 
   const styles = StyleSheet.create({
     container: { flex: 1 },
@@ -84,7 +95,6 @@ export default function GIRCalculatorScreen() {
             ending="Dextrose %"
           />
 
-          <Spacer />
           <NumberInput
             onChange={(m) => {
               setMl(m);
@@ -111,6 +121,73 @@ export default function GIRCalculatorScreen() {
               setPolyCal(event.nativeEvent.selectedSegmentIndex);
             }}
           />
+
+          <Spacer />
+          <FormLabel>Enteral nutrition-feeds</FormLabel>
+          <NumberInput
+            onChange={(v) => {
+              setMilk(v);
+            }}
+            length={2}
+            ending="Breast Milk / Similac Advance, ml/hr"
+          />
+
+          <NumberInput
+            onChange={(v) => {
+              setSsc20(v);
+            }}
+            length={2}
+            ending="SSC 20, ml/hr"
+          />
+
+          <NumberInput
+            onChange={(v) => {
+              setSsc40(v);
+            }}
+            length={2}
+            ending="SSC 40, ml/hr"
+          />
+
+          <NumberInput
+            onChange={(v) => {
+              setEbmSingle(v);
+            }}
+            length={2}
+            ending="EBM + HMF 1:50 (single fortified), ml/hr"
+          />
+          <NumberInput
+            onChange={(v) => {
+              setEbmDouble(v);
+            }}
+            length={2}
+            ending="EBM + HMF 1:25 (double fortified), ml/hr"
+          />
+          <NumberInput
+            onChange={(v) => {
+              setEbmNeosure(v);
+            }}
+            length={2}
+            ending="EBM + HMF 1:25 (double fortified) + Neosure, ml/hr"
+          />
+
+          <Spacer />
+          <FormLabel>Feed GIR</FormLabel>
+          <View style={styles.ivGIRContainer}>
+            <Text style={styles.ivGIR} numberOfLines={1} adjustsFontSizeToFit>
+              {calculateFeedGIR(
+                weight,
+                polyCal,
+                milk,
+                ssc20,
+                ssc40,
+                ebmSingle,
+                ebmDouble,
+                ebmNeoSure
+              )}
+              <Text style={styles.ivGIRMeasurement}> mg/kg/min</Text>
+            </Text>
+          </View>
+          <Spacer />
         </ScrollView>
       </KeyboardAvoidingView>
     </View>

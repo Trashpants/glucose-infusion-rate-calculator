@@ -13,7 +13,11 @@ export default function RootNavigator() {
     <AppearanceProvider>
       <NavigationContainer theme={scheme === "dark" ? DarkTheme : LightTheme}>
         <Stack.Navigator initialRouteName="GIRCalculator">
-          <Stack.Screen name="GIRCalculator" component={GIRCalculatorScreen} />
+          <Stack.Screen
+            options={{ title: "Glucose Infusion Rate" }}
+            name="GIRCalculator"
+            component={GIRCalculatorScreen}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </AppearanceProvider>
