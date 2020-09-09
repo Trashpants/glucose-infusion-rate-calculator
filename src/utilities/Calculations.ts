@@ -4,10 +4,10 @@ export const calculateIVFluidGIR = (
   ml: number
 ) => {
   if (weight === 0 || dxPC === 0 || ml === 0) {
-    return "0.00";
+    return 0.0;
   }
 
-  return ((dxPC * ml * 10) / (weight * 60)).toFixed(2);
+  return (dxPC * ml * 10) / (weight * 60);
 };
 
 export const calculateFeedGIR = (
@@ -21,7 +21,7 @@ export const calculateFeedGIR = (
   ebmNeoSure: number
 ) => {
   if (weight === 0) {
-    return "0.00";
+    return 0.0;
   }
 
   let polyCalModifiers: number[] = [];
@@ -58,7 +58,7 @@ export const calculateFeedGIR = (
     ebmSingleCalc +
     ebmDoubleCalc +
     ebmNeoSureCalc
-  ).toFixed(2);
+  );
 };
 
 export const generateNumberList = (start: number, end: number) => {

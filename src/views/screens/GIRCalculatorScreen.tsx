@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {
+  Platform,
   StyleSheet,
   View,
   ScrollView,
@@ -38,6 +39,21 @@ export default function GIRCalculatorScreen() {
   const [ebmDouble, setEbmDouble] = useState<number>(0);
   const [ebmNeoSure, setEbmNeosure] = useState<number>(0);
 
+  const feedGIR = calculateFeedGIR(
+    weight,
+    polyCal,
+    milk,
+    ssc20,
+    ssc40,
+    ebmSingle,
+    ebmDouble,
+    ebmNeoSure
+  );
+
+  const ivFluidGIR = calculateIVFluidGIR(weight, dextrose, ml);
+
+  const totalGIR = feedGIR + ivFluidGIR;
+
   const styles = StyleSheet.create({
     container: { flex: 1 },
     ivGIRContainer: {
@@ -71,7 +87,7 @@ export default function GIRCalculatorScreen() {
     <View style={styles.container}>
       <KeyboardAvoidingView
         style={styles.container}
-        behavior="padding"
+        behavior={Platform.OS === "ios" ? "padding" : undefined}
         keyboardVerticalOffset={Constants.statusBarHeight + 36}
       >
         <ScrollView keyboardShouldPersistTaps="handled">
@@ -106,7 +122,7 @@ export default function GIRCalculatorScreen() {
           <FormLabel>IV fluid GIR</FormLabel>
           <View style={styles.ivGIRContainer}>
             <Text style={styles.ivGIR} numberOfLines={1} adjustsFontSizeToFit>
-              {calculateIVFluidGIR(weight, dextrose, ml)}
+              {ivFluidGIR.toFixed(2)}
               <Text style={styles.ivGIRMeasurement}> mg/kg/min</Text>
             </Text>
           </View>
@@ -174,16 +190,16 @@ export default function GIRCalculatorScreen() {
           <FormLabel>Feed GIR</FormLabel>
           <View style={styles.ivGIRContainer}>
             <Text style={styles.ivGIR} numberOfLines={1} adjustsFontSizeToFit>
-              {calculateFeedGIR(
-                weight,
-                polyCal,
-                milk,
-                ssc20,
-                ssc40,
-                ebmSingle,
-                ebmDouble,
-                ebmNeoSure
-              )}
+              {feedGIR.toFixed(2)}
+              <Text style={styles.ivGIRMeasurement}> mg/kg/min</Text>
+            </Text>
+          </View>
+          <Spacer />
+          <Spacer />
+          <FormLabel>Total GIR</FormLabel>
+          <View style={styles.ivGIRContainer}>
+            <Text style={styles.ivGIR} numberOfLines={1} adjustsFontSizeToFit>
+              {totalGIR.toFixed(2)}
               <Text style={styles.ivGIRMeasurement}> mg/kg/min</Text>
             </Text>
           </View>

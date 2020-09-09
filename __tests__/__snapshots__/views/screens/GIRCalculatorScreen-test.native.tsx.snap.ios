@@ -2018,6 +2018,80 @@ exports[`<GIRCalculator /> should match snapshot 1`] = `
           }
           testID="spacer"
         />
+        <View
+          style={
+            Object {
+              "padding": 12,
+              "width": 750,
+            }
+          }
+          testID="spacer"
+        />
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "paddingBottom": 6,
+              "paddingHorizontal": 12,
+              "paddingTop": 12,
+            }
+          }
+          testID="label"
+        >
+          Total GIR
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "baseline",
+              "borderColor": "rgb(28, 28, 30)",
+              "borderTopWidth": 2,
+              "flexDirection": "row",
+              "margin": 12,
+              "marginTop": 6,
+            }
+          }
+        >
+          <Text
+            adjustsFontSizeToFit={true}
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 96,
+                "fontWeight": "200",
+                "paddingHorizontal": 12,
+              }
+            }
+          >
+            0.00
+            <Text
+              style={
+                Object {
+                  "borderColor": "rgb(28, 28, 30)",
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 36,
+                  "fontWeight": "600",
+                  "marginLeft": 6,
+                  "paddingBottom": 0,
+                }
+              }
+            >
+               mg/kg/min
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "padding": 12,
+              "width": 750,
+            }
+          }
+          testID="spacer"
+        />
       </View>
     </RCTScrollView>
   </View>
