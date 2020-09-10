@@ -68,3 +68,11 @@ export const generateNumberList = (start: number, end: number) => {
   }
   return list;
 };
+
+export const granularWeights = (weight: number) => {
+  const list: number[] = [];
+  for (let i = 0; i < 10; i++) {
+    list.push(weight + i / 10);
+  }
+  return list;
+};

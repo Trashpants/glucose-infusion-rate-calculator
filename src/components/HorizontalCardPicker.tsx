@@ -13,11 +13,13 @@ interface HorizontalCardPickerProps {
   onPress: (value: number) => void;
   items: number[];
   measurement?: "KG" | "LBs";
+  displayDecimals?: boolean;
 }
 const HorizontalCardPicker: FunctionComponent<HorizontalCardPickerProps> = ({
   onPress,
   items,
   measurement,
+  displayDecimals,
 }) => {
   /**
    * As we know generally these will be used for a short list,
@@ -87,16 +89,18 @@ const HorizontalCardPicker: FunctionComponent<HorizontalCardPickerProps> = ({
                   isSelected && styles.selectedValueText,
                 ]}
               >
-                {i}
+                {displayDecimals ? i.toFixed(1) : i}
               </Text>
-              <Text
-                style={[
-                  styles.measurementText,
-                  isSelected && styles.selectedValueText,
-                ]}
-              >
-                {measurement}
-              </Text>
+              {measurement && (
+                <Text
+                  style={[
+                    styles.measurementText,
+                    isSelected && styles.selectedValueText,
+                  ]}
+                >
+                  {measurement}
+                </Text>
+              )}
             </>
           </TouchableHighlight>
         );

@@ -20,14 +20,14 @@ import {
   calculateIVFluidGIR,
   calculateFeedGIR,
   generateNumberList,
+  granularWeights,
 } from "@utilities/Calculations";
-
-const kgWeights = generateNumberList(1, 20);
 
 export default function GIRCalculatorScreen() {
   const theme = useTheme();
 
   const [weight, setWeight] = useState<number>(0);
+  const [exactWeight, setExactWeight] = useState<number>(0);
   const [dextrose, setDextrose] = useState<number>(0);
   const [ml, setMl] = useState<number>(0);
 
@@ -39,8 +39,12 @@ export default function GIRCalculatorScreen() {
   const [ebmDouble, setEbmDouble] = useState<number>(0);
   const [ebmNeoSure, setEbmNeosure] = useState<number>(0);
 
+  const kgWeights = generateNumberList(0, 20);
+
+  const exactWeights = granularWeights(weight);
+
   const feedGIR = calculateFeedGIR(
-    weight,
+    exactWeight,
     polyCal,
     milk,
     ssc20,
@@ -50,7 +54,7 @@ export default function GIRCalculatorScreen() {
     ebmNeoSure
   );
 
-  const ivFluidGIR = calculateIVFluidGIR(weight, dextrose, ml);
+  const ivFluidGIR = calculateIVFluidGIR(exactWeight, dextrose, ml);
 
   const totalGIR = feedGIR + ivFluidGIR;
 
@@ -99,6 +103,14 @@ export default function GIRCalculatorScreen() {
             onPress={(weightVal) => {
               setWeight(weightVal);
             }}
+          />
+          <HorizontalCardPicker
+            items={exactWeights}
+            onPress={(weightVal) => {
+              setExactWeight(weightVal);
+            }}
+            displayDecimals
+            measurement="KG"
           />
 
           <Spacer />
